@@ -4,10 +4,10 @@ export default function NavbarLinks() {
   return (
     <>
       <li>
-        <Link to="/">Hem</Link>
+        <Link to="/home">Start</Link>
       </li>
       <li>
-        <Link to="/about">Blogg</Link>
+        <Link to="/about">Documents</Link>
       </li>
     </>
   );
